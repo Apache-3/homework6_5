@@ -17,7 +17,7 @@ export const Posts = () => {
                     <img src={product.picture} alt="" />
                     <div style={{display: 'flex', justifyContent: 'space-between'}}>
                         <h3>{product.name}</h3>
-                        <button onClick={increaseCount}>bay product</button>
+                        <button onClick={increaseCount}>BUY PRODUCT</button>
                     </div>
                 </div>
             ))}
